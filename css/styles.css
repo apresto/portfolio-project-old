@@ -1,0 +1,134 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Bitter', serif;
+}
+
+h1, h2, h3 {
+    font-family: "bitter", serif;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+button {
+    font-family: 'Bitter', serif;
+}
+
+button.btn-main {
+    font-size: 20px;
+}
+
+.btn {
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #BF202F;
+    border: 1px solid #BF202F;
+}
+
+.btn-primary:hover {
+    background-color: rgb(226, 3, 25);
+    border: 1px solid rgb(226, 3, 25);
+}
+
+/* nav {
+    height: 15vh;
+} */
+
+.navbar {
+    background-color: #fff;
+}
+
+/* .navbar-collapse {
+    background-color: #fff;
+    padding-top: 10px;
+} */
+
+.parallax {
+    /* The image and overlay used */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/parallax.jpg");
+
+    /* Set a specific height */
+    min-height: 85vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#locations {
+    scroll-margin-top: 170px;
+}
+
+.heading-text {
+    font-size: 70px;
+    color: #fff;
+}
+
+.bg-image {
+    height: auto;
+}
+
+.bg-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/puyallup.jpg');
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/tacoma.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/old-town-tacoma.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/tacoma-stadium-district.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/point-ruston.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/sunrise-medical.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/sunrise-village.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
